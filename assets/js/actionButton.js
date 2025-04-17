@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
     // Ajusta para garantir que o site comece no topo ao recarregar
     if (window.location.hash !== '#inicio') {
         window.location.hash = '#inicio';
@@ -31,12 +31,12 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('scroll', toggleButtons);
 
     // Ação ao clicar no botão "Voltar ao Topo"
-    backToTopButton.addEventListener('click', function () {
+    backToTopButton.addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     // Ação ao clicar no botão do WhatsApp
-    whatsappButton.addEventListener('click', function () {
-        window.location.href = 'https://wa.me/5599999999999';
+    whatsappButton.addEventListener('click', function() {
+        window.location.href = 'https://wa.me/55759906-4366';
     });
 });
